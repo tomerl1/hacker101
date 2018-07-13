@@ -27,7 +27,7 @@ The amount input tag is vulnerable to XSS.
 You can add it to the querystring and inject XSS.  
 
 For example:
-```html
+```
 https://levels-a.hacker101.com/levels/0/?to=1258&amount=1"onmouseover="alert('XSS')
 ```
 
