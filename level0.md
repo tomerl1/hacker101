@@ -8,7 +8,7 @@ Try to send negative amount, it shows an error but you also get a link to a [sam
 
 ## 2 CSRF
 
-From the report we can see that the target doesn't CSRF protection, therefore we can send request from other resources.
+From the report we can see that the target doesn't have any CSRF protection, therefore we can send requests from other resources.
 
 For example:
 
